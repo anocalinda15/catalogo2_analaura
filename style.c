@@ -1,6 +1,6 @@
 header {
-    border-bottom: solid 2px rgb(42, 122, 228);
+    border-bottom: solid 2px rgba(231, 79, 155, 0.97);
     padding: 20px;
     font-size: 32px;
-    color: rgb(42, 122, 228);
+    color: rgba(255, 77, 216, 1);
 }
