@@ -2,7 +2,7 @@ body {
   color: black;
   background: white;
   margin: 0px;
-  font-family: "Chakra Petch", sans-serif;
+   font-family: "DM Serif Display", serif;
 }
 
 header {
