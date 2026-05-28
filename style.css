@@ -1,65 +1,116 @@
 body {
-    color: black;
-    background: white;
-    margin: 0px;
-    font-family: "Chakra Petch", sans-serif;
-    margin-bottom: 100px;
+    background: #000;
+    color: white;
+    font-family: 'Courier New', monospace;
+    margin: 0;
+    padding: 0;
 }
 
 header {
-    border-bottom: solid 2px rgba(0, 0, 0, 1);
-    padding: 20px;
-    font-size: 32px;
-    color: rgba(255, 255, 255, 1);
-    background-color: rgba(238, 110, 255, 0.8); /* Nova cor de fundo */
+    text-align: center;
+    padding: 30px;
+    border-bottom: 2px solid red;
 }
 
-.chamada {
-    background: rgba(238, 110, 255, 0.8);
-    padding-bottom: 80px;
-    padding-top: 80px;
-    display: flex;
-    justify-content: center;
-    max-width: 1200px; /* Largura máxima */
-    margin: 0 auto; /* Centralizar */
+header h1 {
+    font-size: 45px;
+    color: red;
+    text-shadow: 0 0 12px red;
+    margin: 0;
 }
 
-.chamada-texto {
-    margin-right: 5%;
+header p {
+    color: #ccc;
+    font-size: 16px;
 }
 
-h1 {
-    font-size: 40px;
+.catalog {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+    gap: 30px;
+    padding: 30px;
 }
 
-p {
-    font-size: 20px;
-    line-height: 1.5; /* Espaçamento entre linhas */
+.card {
+    background: #111;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid red;
+    box-shadow: 0 0 10px red;
+    transition: transform 0.3s;
 }
 
-.categoria-videos {
-    display: flex;
-    overflow-x: auto;
-    gap: 10px;
-    padding: 0 20px; /* Espaçamento lateral */
+.card:hover {
+    transform: scale(1.05);
 }
 
-.categoria {
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-top: 50px;
-}
-
-.categoria-videos img {
-    opacity: 0.5;
+iframe {
+    width: 100%;
     height: 200px;
-    transition: opacity 0.3s ease-in-out; /* Transição suave */
+    border-radius: 5px;
 }
 
-.categoria-videos img:hover {
-    opacity: 1.0;
-    border: 3px solid green;
+.card h3 {
+    color: red;
+    text-shadow: 0 0 5px red;
 }
 
-.categoria h2 {
-    color: rgba(209, 80, 248, 0.8); /* Cor mais forte */
+.card p {
+    color: #ccc;
+}
+/* ======== SEÇÃO DE RECOMENDADOS ======== */
+
+.recomendados {
+    margin-top: 40px;
+}
+
+.recomendados h2 {
+    color: red;
+    font-size: 28px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+/* Fila horizontal estilo Netflix */
+.fila-videos {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    padding-bottom: 10px;
+
+    /* Deixa a barra de rolagem invisível */
+    scrollbar-width: none; 
+}
+.fila-videos::-webkit-scrollbar {
+    display: none;
+}
+
+/* Cada card */
+.rec-card {
+    min-width: 300px;       /* tamanho horizontal fixo para ficar tipo cards Netflix */
+    flex-shrink: 0;         /* impede de encolher */
+    text-align: left;
+}
+
+/* Vídeo */
+.rec-card iframe {
+    width: 100%;
+    height: 170px;
+    border-radius: 8px;
+    border: 2px solid red;
+}
+
+/* Título abaixo dos vídeos */
+.rec-card p {
+    margin-top: 8px;
+    font-size: 16px;
+    color: red;
+    font-weight: 500;
+}: 500;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid red;
+    color: #777;
+}
