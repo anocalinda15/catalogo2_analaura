@@ -9,13 +9,13 @@ body {
 header {
     text-align: center;
     padding: 30px;
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid rgb(62, 238, 77);
 }
 
 header h1 {
     font-size: 45px;
-    color: red;
-    text-shadow: 0 0 12px red;
+    color: rgb(14, 197, 84);
+    text-shadow: 0 0 12px rgb(21, 124, 17);
     margin: 0;
 }
 
@@ -35,8 +35,8 @@ header p {
     background: #111;
     padding: 15px;
     border-radius: 8px;
-    border: 1px solid red;
-    box-shadow: 0 0 10px red;
+    border: 1px solid rgb(75, 173, 9);
+    box-shadow: 0 0 10px rgb(4, 160, 30);
     transition: transform 0.3s;
 }
 
@@ -51,8 +51,8 @@ iframe {
 }
 
 .card h3 {
-    color: red;
-    text-shadow: 0 0 5px red;
+    color: rgb(38, 179, 189);
+    text-shadow: 0 0 5px rgb(45, 221, 74);
 }
 
 .card p {
@@ -65,7 +65,7 @@ iframe {
 }
 
 .recomendados h2 {
-    color: red;
+    color: rgb(12, 194, 88);
     font-size: 28px;
     margin-bottom: 15px;
     font-weight: bold;
@@ -97,14 +97,14 @@ iframe {
     width: 100%;
     height: 170px;
     border-radius: 8px;
-    border: 2px solid red;
+    border: 2px solid rgb(14, 202, 130);
 }
 
 /* Título abaixo dos vídeos */
 .rec-card p {
     margin-top: 8px;
     font-size: 16px;
-    color: red;
+    color: rgb(43, 255, 0);
     font-weight: 500;
 }: 500;
 }
