@@ -58,6 +58,7 @@ iframe {
 .card p {
     color: #ccc;
 }
+
 /* ======== SEÇÃO DE RECOMENDADOS ======== */
 
 .recomendados {
@@ -79,16 +80,19 @@ iframe {
     padding-bottom: 10px;
 
     /* Deixa a barra de rolagem invisível */
-    scrollbar-width: none; 
+    scrollbar-width: none;
 }
+
 .fila-videos::-webkit-scrollbar {
     display: none;
 }
 
 /* Cada card */
 .rec-card {
-    min-width: 300px;       /* tamanho horizontal fixo para ficar tipo cards Netflix */
-    flex-shrink: 0;         /* impede de encolher */
+    min-width: 300px;
+    /* tamanho horizontal fixo para ficar tipo cards Netflix */
+    flex-shrink: 0;
+    /* impede de encolher */
     text-align: left;
 }
 
@@ -106,8 +110,11 @@ iframe {
     font-size: 16px;
     color: rgb(43, 255, 0);
     font-weight: 500;
-}: 500;
 }
+
+: 500;
+}
+
 footer {
     text-align: center;
     padding: 20px;
