@@ -62,13 +62,13 @@ iframe {
 /* ======== SEÇÃO DE RECOMENDADOS ======== */
 
 .recomendados {
-    margin-top: 10;
+    margin-top: 0;
 }
 
 .recomendados h2 {
     color: rgb(12, 194, 88);
     font-size: 28px;
-    margin-bottom: 10;
+    margin-bottom: 0;
     font-weight: bold;
 }
 
